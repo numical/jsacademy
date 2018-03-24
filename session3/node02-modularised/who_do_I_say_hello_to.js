@@ -1,4 +1,4 @@
-function sayHelloTo() {
+function sayHelloTo () {
   return 'World';
 }
 
