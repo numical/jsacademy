@@ -25,7 +25,7 @@ web06 - externalise js and styles
 3. edit index.html
 
 web07 - modify DOM
-1. add id img element in index.html
+1. add id to img element in index.html
 2. add tranquil.jpg
 3. edit stop.js
 
@@ -39,6 +39,9 @@ web09 - add XMLHttpRequest
 
 web10 - nicer fetch API
 1. edit server.js
+
+web11 - async/await fetch
+1. edit fetchMail.js
 
 react01 - a react app
 1. edit index.html
