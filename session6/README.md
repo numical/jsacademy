@@ -26,9 +26,15 @@
 
 ### web16 - fix test hang
 1. add after close server
+2. add start > change start script
 
 ### web17 - client test
-
+browser-based, implementation-independent
+1. based on instructions [here](https://github.com/numical/wonderwall/wiki/Add-Acceptance-Test-Framework)
+2. npm run selenium-setup
+3. note: npm run selenium-remove
+4. npm install -save-dev selenium-webdriver
+5. client.test.js
 
 ### react01 - a react app
 1. edit index.html

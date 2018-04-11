@@ -1,8 +1,9 @@
 const assert = require('assert');
 const request = require('supertest');
-const {app, stop}  = require('./server.js');
+const { app, start, stop }  = require('./server.js');
 
 describe('server', () => {
+  before(start);
   after(stop);
 
   it('inbox endpoint returns OK', async() => {
@@ -10,7 +11,7 @@ describe('server', () => {
     assert(200, response.statusCode);
   });
 
-  it('inbox endpoint returns an array ofmails', async() => {
+  it('inbox endpoint returns an array of mails', async() => {
     const response = await request(app).get('/inbox');
     assert(Array.isArray(response.body));
   });

@@ -4,8 +4,9 @@ const express = require('express');
 const getMail = require('./getMail');
 
 const app = express();
-
 const port = 1971;
+
+let server;
 
 app.use(express.static('public'));
 
@@ -14,9 +15,16 @@ app.get('/inbox', (request, response) => {
   response.send(mail);
 });
 
-const server = app.listen(port, () => console.log(`Express listening on port ${port}`));
+const start = () => {
+  server = app.listen(port, () => console.log(`Express listening on port ${port}`));
+}
+
+const stop = () => {
+  server.close();
+}
 
 module.exports = {
   app,
-  stop: server.close.bind(server)
+  start,
+  stop
 };
