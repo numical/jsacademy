@@ -1,10 +1,11 @@
+/* global fetch */
 /* eslint no-console:0 */
 
 const addLine = (parent, text) => {
   const line = document.createElement('div');
   line.textContent = text;
   parent.appendChild(line);
-}
+};
 
 document.getElementById('fetch').addEventListener('click', async() => {
   const inbox = document.getElementById('inbox');

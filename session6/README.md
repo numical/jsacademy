@@ -35,6 +35,23 @@ browser-based, implementation-independent
 3. note: npm run selenium-remove
 4. npm install -save-dev selenium-webdriver
 5. client.test.js
+lots of complexity as intrically bound up with dom
+
+### web18 - react 
+1. note react-prod libsa
+2. simplify index.html
+3. goto fetchMail.js
+4. each element now a function
+
+
+###  web19 built react
+TODO
+
+### web20 - componentised, tested react
+TODO
+
+### web21 - JSX
+TODO
 
 ### react01 - a react app
 1. edit index.html

@@ -17,11 +17,11 @@ app.get('/inbox', (request, response) => {
 
 const start = () => {
   server = app.listen(port, () => console.log(`Express listening on port ${port}`));
-};
+}
 
 const stop = () => {
   server.close();
-};
+}
 
 module.exports = {
   app,
