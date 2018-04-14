@@ -1,5 +1,8 @@
-/* global React ReactDOM fetch */
+/* global fetch */
 /* eslint no-console:0 */
+
+const React = require('react');
+const ReactDOM = require('react-dom');
 
 class App extends React.Component {
   constructor (props) {
