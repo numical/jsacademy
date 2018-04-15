@@ -1,5 +1,6 @@
-const Adapter = require('enzyme-adapter-react-16');
 /* global describe it */
+
+const Adapter = require('enzyme-adapter-react-16');
 const App = require('./App.js');
 const assert = require('assert');
 const Button = require('./Button');
