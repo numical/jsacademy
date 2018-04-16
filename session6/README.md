@@ -68,25 +68,3 @@ lots of complexity as intrically bound up with dom
 2. npm i -D babel-core babel-loader babel-preset-env babel-preset-react babel-polyfill
 3. webpack.config.s - add loader config & babel-polyfill entry point
 
-### react01 - a react app
-1. edit index.html
-2. create reactApp.js
-
-### react02 - a built react app
-1. install webpack
-2. create src dir and move reactApp into it
-3. change index.html to ref bundle.js and not CDN
-4. create webpack.config.js
-5. install react react-dom
-6. add build command
-
-next steps webpack-dev-server
-OR JSX?
-
-
-
-
-
-
-
-

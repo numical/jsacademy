@@ -4,6 +4,6 @@ const getMail = require('./getMail.js');
 describe('getMail', () => {
   it('returns 3 mails', () => {
     const mail = getMail();
-    assert.equal(mail.length, 2);
+    assert.equal(mail.length, 3);
   })
 })
