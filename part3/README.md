@@ -1,13 +1,34 @@
 * The Plan *
 
+setup
+* Node
+    1. `node --version`
+    2. DigitalDevTools or https://nodejs.org/en/download/
+    3. install
+    4. command line then `node`
+    5. .exit
+* Git
+    1. `git --version`
+    2. DigitalDevTools or https://git-scm.com/downloads
+    3. install - default options
+    4. command line then `git`
+* develeopment    
+    1. (if Lloyds laptop)  C: drive and `mkdir XXX`
+    2. one of
+        - `git clone https://github.com/numical/jsacademy`
+        - `git clone git@github.lbg.eu-gb.bluemix.net:mike-evans1/jsacademy.git`
+
 web01 - simple html
 1. create public dir
 2. create index.html
 
 web02 - served by server
-1. npm init
-2. npm install express
-3. create server.js
+1. in root: `npm init --force`
+2. .npmrc ..?
+3. `npm install express`
+4. create server.js
+5. add `start` script to package.json
+
 
 web03 - inline style
 1. edit index.html
