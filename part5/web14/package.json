@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/server.js",
+    "start": "node ../../working/src/server.js",
     "lint": "eslint ./src/ ./public/",
     "test": "mocha ./src/*.test.js"
   },
@@ -14,7 +14,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "mocha": "^5.0.5"
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.0"
   }
 }

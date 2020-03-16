@@ -13,8 +13,10 @@
 6. .eslintrc envs
 
 ### web14 - basic unit test
-1. first see new src/ directory
-2. test getMail
+1. first create new src/ directory
+2. move server.js there
+3. split out getMail
+3. test getMail
  - npm install --save-dev mocha
  - update package script
  - update .eslintrc
@@ -30,28 +32,33 @@
 
 ### web17 - client test
 browser-based, implementation-independent
-1. based on instructions [here](https://github.com/numical/wonderwall/wiki/Add-Acceptance-Test-Framework)
-2. npm run selenium-setup
-3. note: npm run selenium-remove
-4. npm install -save-dev selenium-webdriver
-5. client.test.js
-lots of complexity as intrically bound up with dom
+1. download from [selenium website](https://www.selenium.dev/selenium/docs/api/javascript/index.html)
+2. move to new 'bin' directory
+3. npm run selenium-setup
+4. note: npm run selenium-remove
+5. npm install -save-dev selenium-webdriver
+6. client.test.js
+ - lots of complexity as intrically bound up with dom
+7. remove sleep 
 
 ### web18 - react 
-1. note react-prod libsa
+1. note react-prod libs
 2. simplify index.html
 3. goto fetchMail.js
 4. each element now a function
 
 ###  web19 built react
-1. move fetchMail.js to new dir client
+1. move fetchMail.js to new 'client' dir
 2. delete react libs
 3. edit index.html remove all external links, rename to bundle.js
 4. add requires for react and react-dom
-5. npm i --save-dev webpack webpack-cli
-6. create webpack.config.js
-7. npm build
-8. note size of bundle.js then do prod build
+5. npm i react react-dom
+6. npm i --save-dev webpack webpack-cli
+7. create webpack.config.js
+8. npm build
+9. note size of bundle.js then do prod build
+
+# EXTRAS
 
 ### web20 - componentised, tested react
 1. seperate out components

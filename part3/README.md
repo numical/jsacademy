@@ -12,7 +12,7 @@
     2. DigitalDevTools or https://git-scm.com/downloads
     3. install - default options
     4. command line then `git`
-###Develeopment    
+###Development    
     1. (if Lloyds laptop)  C: drive and `mkdir XXX`
     2. one of
         - `git clone https://github.com/numical/jsacademy`
