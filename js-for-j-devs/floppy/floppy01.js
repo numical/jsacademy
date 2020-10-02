@@ -7,7 +7,7 @@ floppy.prompt('Please insert disk 1', function() {
     store(data1);
     floppy.prompt('Please insert disk 2', function() {
       floppy.load('disk2', function (data2) {
-        store(data2);)
+        store(data2);
         floppy.prompt('Please insert disk 3', function() {
           floppy.load('disk3', function (data3) {
             store(data3);
