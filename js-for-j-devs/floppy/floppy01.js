@@ -1,5 +1,7 @@
 // if node had existed in 1995
 
+// callback hell
+
 const floppy = require('floppy');
 
 floppy.prompt('Please insert disk 1', function() {

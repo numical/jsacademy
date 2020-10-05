@@ -1,4 +1,7 @@
 // if node has existed in 1995
+
+// disguised callback hell
+
 const floppy = require('floppy');
 
 function mainFn (data6) {

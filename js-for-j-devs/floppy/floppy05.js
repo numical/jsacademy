@@ -1,17 +1,15 @@
 // if node had existed in 1995
 
+// async await - tidier
+
 const floppy = require('floppy');
 
-async function loadFloppy(id) {
-  await floppy.prompt(`Please insert disk ${id}`);
-  return floppy.load(`disk${id}`);
-}
-
 async function mainFn() {
-  const floppyIds = [1,2,3,4,5,6,7];
-  const loadFromAllFloppies = Array.from(floppyIds, loadFloppy);
-  const floppyData = await Promise.all(loadFromAllFloppies);
-  floppyData.forEach(store);
+  for( let i = 1; i < 7; i++ ) {
+    await floppy.prompt(`Please insert disk ${i}`);
+    const data = await floppy.load(`disk${i}`);
+    store(data);
+  }
   useData();
 }
 
